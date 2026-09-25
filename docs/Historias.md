@@ -323,4 +323,4 @@ O sistema deve disponibilizar os principais resultados e indicadores da escola e
 - Deve disponibilizar os principais indicadores no dashboard.
 - Deve permitir consultar os detalhes dos indicadores.
 - Deve apresentar os dados de forma consolidada.
-- Deve permitir acessar as informações sem necessidade de solicitar relatórios extras.
+- Deve permitir acessar as informações sem necessidade de solicitar relatórios extras..

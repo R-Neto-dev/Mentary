@@ -126,7 +126,7 @@ O sistema deve permitir extrair automaticamente questões de provas em PDF e ofe
 ---
 
 
-## S4 — Dashboards de desempenho
+## S2 — Dashboards de desempenho
 
 ### Requisito funcional
 

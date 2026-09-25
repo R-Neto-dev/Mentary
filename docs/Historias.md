@@ -185,3 +185,142 @@ O sistema deve permitir montar simulados alinhados à BNCC/SAEB a partir das que
 * Deve permitir publicar o simulado após sua aprovação.
 
 ---
+
+# Histórias de Usuário — Persona 4
+
+## Persona 4 — José Amorim
+
+**Perfil:** Gestor Escolar
+
+---
+
+## S1 — Visualização dos resultados escolares
+
+### Requisito funcional
+
+O sistema deve apresentar os resultados consolidados da escola em um dashboard.
+
+### História de usuário
+
+**Como gestor escolar, quero visualizar os resultados consolidados da escola em um dashboard, para acompanhar o desempenho geral e identificar situações que precisam de atenção.**
+
+### Critérios de aceitação
+
+- Deve apresentar os principais resultados da escola.
+- Deve apresentar os resultados por componente curricular.
+- Deve apresentar os indicadores de forma visual e objetiva.
+- Deve permitir identificar indicadores que necessitam de atenção.
+
+---
+
+## S2 — Comparação entre turmas
+
+### Requisito funcional
+
+O sistema deve permitir comparar os resultados de diferentes turmas da escola.
+
+### História de usuário
+
+**Como gestor escolar, quero comparar os resultados entre as turmas, para identificar diferenças de desempenho e direcionar ações de intervenção.**
+
+### Critérios de aceitação
+
+- Deve permitir selecionar as turmas que serão comparadas.
+- Deve apresentar os resultados de cada turma.
+- Deve permitir comparar os resultados no mesmo período.
+- Deve destacar diferenças relevantes de desempenho.
+
+---
+
+## S3 — Acompanhamento da evolução escolar
+
+### Requisito funcional
+
+O sistema deve permitir acompanhar a evolução dos resultados escolares ao longo do tempo.
+
+### História de usuário
+
+**Como gestor escolar, quero acompanhar a evolução dos resultados ao longo do tempo, para verificar se o desempenho da escola está melhorando ou piorando.**
+
+### Critérios de aceitação
+
+- Deve apresentar os resultados de diferentes períodos.
+- Deve permitir comparar períodos letivos.
+- Deve apresentar a evolução dos indicadores visualmente.
+- Deve destacar variações significativas nos resultados.
+
+---
+
+## S4 — Análise por descritor
+
+### Requisito funcional
+
+O sistema deve permitir visualizar o desempenho dos alunos por descritor e componente curricular.
+
+### História de usuário
+
+**Como gestor escolar, quero visualizar o desempenho por descritor e componente curricular, para identificar quais conteúdos apresentam maiores dificuldades.**
+
+### Critérios de aceitação
+
+- Deve apresentar o desempenho por descritor.
+- Deve permitir filtrar por componente curricular.
+- Deve destacar descritores com baixo desempenho.
+- Deve apresentar os resultados de forma clara e objetiva.
+
+---
+
+## S5 — Alertas de desempenho
+
+### Requisito funcional
+
+O sistema deve alertar o gestor sobre quedas significativas nos resultados escolares.
+
+### História de usuário
+
+**Como gestor escolar, quero receber alertas sobre quedas significativas no desempenho, para identificar rapidamente situações que precisam de intervenção.**
+
+### Critérios de aceitação
+
+- Deve gerar um alerta quando houver uma queda significativa.
+- Deve informar qual indicador apresentou a queda.
+- Deve informar a turma ou componente curricular relacionado.
+- Deve destacar visualmente os alertas.
+
+---
+
+## S6 — Acompanhamento das intervenções
+
+### Requisito funcional
+
+O sistema deve permitir acompanhar os resultados após a realização de ações de intervenção.
+
+### História de usuário
+
+**Como gestor escolar, quero acompanhar os resultados após as intervenções, para verificar se as ações realizadas contribuíram para melhorar o desempenho dos alunos.**
+
+### Critérios de aceitação
+
+- Deve permitir visualizar os resultados antes da intervenção.
+- Deve permitir visualizar os resultados após a intervenção.
+- Deve permitir comparar os dois períodos.
+- Deve apresentar a evolução do indicador acompanhado.
+
+---
+
+## S7 — Consulta das informações gerenciais
+
+### Requisito funcional
+
+O sistema deve disponibilizar os principais resultados e indicadores da escola em um único ambiente.
+
+### História de usuário
+
+**Como gestor escolar, quero consultar os principais indicadores da escola em um único ambiente, para obter as informações necessárias sem depender de relatórios adicionais.**
+
+### Critérios de aceitação
+
+- Deve disponibilizar os principais indicadores no dashboard.
+- Deve permitir consultar os detalhes dos indicadores.
+- Deve apresentar os dados de forma consolidada.
+- Deve permitir acessar as informações sem necessidade de solicitar relatórios extras.

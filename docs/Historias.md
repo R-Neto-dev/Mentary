@@ -143,3 +143,45 @@ O sistema deve apresentar dashboards que identifiquem as habilidades ou descrito
 * Deve permitir visualizar o desempenho individual e o desempenho da turma.
 * Os dados exibidos devem corresponder aos resultados registrados no sistema após a aplicação da avaliação.
 * Deve atualizar o dashboard automaticamente após a correção das avaliações.
+
+---
+
+
+## S3 — Validador Pedagógico
+
+### Requisito funcional
+
+O sistema deve validar a distribuição pedagógica do simulado e alertar o professor sobre desequilíbrios antes da aprovação.
+
+### História de usuário
+
+**Como professora de matemática, quero ser alertada quando um simulado estiver desbalanceado em relação aos descritores, para evitar aplicar avaliações que não representem adequadamente o conteúdo da turma.**
+
+### Critérios de aceitação
+
+* Deve analisar a distribuição de descritores/habilidades do simulado montado.
+* Deve exibir um alerta visível quando o simulado estiver concentrado em poucos descritores.
+* Deve exigir confirmação explícita do professor antes de aprovar um simulado com alerta pendente.
+* Deve registrar quando um simulado foi aprovado mesmo com alerta ativo.
+* Não deve permitir a publicação do simulado sem que o alerta tenha sido visualizado pelo professor.
+
+---
+## S4 — Construtor de simulados
+
+### Requisito funcional
+
+O sistema deve permitir montar simulados alinhados à BNCC/SAEB a partir das questões cadastradas.
+
+### História de usuário
+
+**Como professora de matemática, quero montar simulados alinhados à BNCC/SAEB de forma rápida, para preparar avaliações de qualidade mesmo com pouco tempo disponível.**
+
+### Critérios de aceitação
+
+* Deve permitir selecionar questões cadastradas para compor um simulado.
+* Deve permitir filtrar questões por habilidade ou descritor da BNCC/SAEB.
+* Deve permitir organizar a ordem das questões no simulado.
+* Deve permitir salvar o simulado como rascunho antes da aprovação final.
+* Deve permitir publicar o simulado após sua aprovação.
+
+---

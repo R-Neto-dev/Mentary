@@ -95,3 +95,51 @@ O sistema deve permitir ao administrador gerar QR Codes e carteirinhas dos estud
 * Os dados da carteirinha devem estar relacionados ao estudante correto.
 * O QR Code deve estar associado ao estudante correspondente.
 * A geração deve utilizar os dados cadastrados no sistema.
+
+# Histórias de Usuário — Persona 2
+
+## Persona 2 — Carla Mendes
+
+**Perfil:** Professora de Matemática
+
+---
+
+## S1 — Extração e revisão de questões
+
+### Requisito funcional
+
+O sistema deve permitir extrair automaticamente questões de provas em PDF e oferecer uma interface de revisão rápida do conteúdo extraído.
+
+### História de usuário
+
+**Como professora de matemática, quero extrair questões de provas antigas em PDF e revisar rapidamente o que foi extraído, para montar avaliações sem precisar redigitar as questões manualmente.**
+
+### Critérios de aceitação
+
+* Deve permitir importar arquivos em PDF para extração de questões.
+* Deve extrair automaticamente o texto e as alternativas das questões do PDF.
+* Deve apresentar uma interface de revisão rápida do conteúdo extraído.
+* Deve permitir confirmar a questão extraída sem necessidade de redigitação.
+* Deve permitir corrigir manualmente um trecho da extração quando necessário.
+* Deve sinalizar quando uma extração apresentar baixa confiabilidade.
+
+---
+
+
+## S4 — Dashboards de desempenho
+
+### Requisito funcional
+
+O sistema deve apresentar dashboards que identifiquem as habilidades ou descritores críticos de cada aluno com base nos resultados das avaliações.
+
+### História de usuário
+
+**Como professora de matemática, quero visualizar em que habilidade ou descritor cada aluno apresenta dificuldade, para identificar a tempo quem precisa de reforço.**
+
+### Critérios de aceitação
+
+* Deve apresentar o desempenho de cada aluno por habilidade ou descritor, não apenas a nota final.
+* Deve destacar os alunos com maior necessidade de reforço.
+* Deve permitir visualizar o desempenho individual e o desempenho da turma.
+* Os dados exibidos devem corresponder aos resultados registrados no sistema após a aplicação da avaliação.
+* Deve atualizar o dashboard automaticamente após a correção das avaliações.

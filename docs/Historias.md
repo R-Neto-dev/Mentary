@@ -136,17 +136,6 @@ O sistema deve disponibilizar informações consolidadas que auxiliem a gestora 
 
 ---
 
-## Resumo das histórias de usuário
-
-| ID | História | Necessidade da Mariana |
-|---|---|---|
-| **S1** | Visualizar resultados | Evitar dados espalhados |
-| **S2** | Comparar escolas | Analisar diferenças de desempenho |
-| **S3** | Gerar relatórios | Reduzir tempo de análise |
-| **S4** | Exportar relatórios | Compartilhar e utilizar os dados |
-| **S5** | Apoiar decisões | Tomar decisões mais rápidas e eficientes |
----
-
 # Histórias de Usuário — Persona 6
 
 ## Persona 6 — Ricardo Nascimento

@@ -27,6 +27,76 @@ O sistema deve permitir visualizar, comparar e analisar os dados das escolas da 
 ### Benefício esperado
 
 Reduzir o tempo necessário para analisar os dados e gerar relatórios assim facilitando decisões mais rápidas e eficientes sobre a rede de ensino.
+---
+Histórias de Usuário — Persona 1: Mariana Oliveira
+S1 — Visualização dos resultados dos simulados
+
+Requisito funcional
+O sistema deve permitir à gestora visualizar de forma centralizada os resultados dos simulados realizados pelas escolas da rede.
+
+História de usuário
+
+Como gestora da rede de ensino, quero visualizar os resultados dos simulados de forma simples e organizada, para analisar rapidamente o desempenho das escolas e identificar pontos que precisam de atenção.
+
+Critérios de aceitação
+
+Deve apresentar os resultados em um painel simples e intuitivo.
+Deve permitir visualizar os resultados por escola.
+Deve apresentar informações consolidadas da rede de ensino.
+Deve utilizar gráficos, indicadores ou informações de fácil compreensão.
+Deve evitar a necessidade de consultar diferentes planilhas ou fontes de dados.
+S2 — Comparação entre escolas
+
+Requisito funcional
+O sistema deve permitir à gestora comparar os resultados dos simulados entre diferentes escolas da rede.
+
+História de usuário
+
+Como gestora da rede de ensino, quero comparar o desempenho das diferentes escolas, para identificar diferenças de resultados e apoiar decisões de políticas educacionais e alocação de recursos.
+
+Critérios de aceitação
+
+Deve permitir selecionar duas ou mais escolas para comparação.
+Deve apresentar os resultados de maneira organizada e compreensível.
+Deve permitir comparar indicadores relevantes dos simulados.
+Deve apresentar os dados mais recentes disponíveis.
+A comparação deve ser realizada sem exigir configurações complexas.
+S3 — Geração de relatórios consolidados
+
+Requisito funcional
+O sistema deve permitir à gestora gerar relatórios consolidados sobre o desempenho das escolas e da rede.
+
+História de usuário
+
+Como gestora da rede de ensino, quero gerar relatórios consolidados dos resultados das escolas, para reduzir o tempo gasto na organização dos dados e utilizar essas informações na tomada de decisões estratégicas.
+
+Critérios de aceitação
+
+Deve permitir gerar um relatório da rede de ensino.
+Deve permitir gerar relatórios individuais por escola.
+Deve reunir as principais informações dos simulados no relatório.
+A geração do relatório deve ser rápida e simples.
+Os dados apresentados devem corresponder aos resultados cadastrados mais recentemente.
+S4 — Exportação dos relatórios
+
+Requisito funcional
+O sistema deve permitir à gestora exportar os relatórios gerados pela plataforma.
+
+História de usuário
+
+Como gestora da rede de ensino, quero exportar os relatórios consolidados, para compartilhar e utilizar os resultados em reuniões, análises e decisões relacionadas à rede de ensino.
+
+Critérios de aceitação
+
+Deve permitir exportar os relatórios gerados.
+O arquivo exportado deve conter os dados apresentados no sistema.
+Deve incluir as informações essenciais sobre o desempenho das escolas.
+A exportação deve ser realizada de maneira simples.
+O relatório exportado deve apresentar os dados de forma organizada e legível.
+S5 — Análise para tomada de decisões
+
+Requisito funcional
+O sistema deve disponibilizar informações consolidadas que auxiliem a gestora na análise do desempenho da rede de ensino.
 
 ---
 

@@ -27,57 +27,114 @@ O sistema deve permitir visualizar, comparar e analisar os dados das escolas da 
 ### Benefício esperado
 
 Reduzir o tempo necessário para analisar os dados e gerar relatórios assim facilitando decisões mais rápidas e eficientes sobre a rede de ensino.
+---
+# Histórias de Usuário — Persona 1
+
+## Persona 1 — Mariana Oliveira
+
+**Perfil:** Gestora da Rede de Ensino
 
 ---
 
-
-# Histórias de Usuário — Persona 2
-
-## Persona 2 — Carla Mendes
-
-**Perfil:** Professora de Matemática
-
----
-
-## S1 — Extração e revisão de questões
+## S1 — Visualização dos resultados dos simulados
 
 ### Requisito funcional
 
-O sistema deve permitir extrair automaticamente questões de provas em PDF e oferecer uma interface de revisão rápida do conteúdo extraído.
+O sistema deve permitir à gestora visualizar de forma centralizada os resultados dos simulados realizados pelas escolas da rede.
 
 ### História de usuário
 
-**Como professora de matemática, quero extrair questões de provas antigas em PDF e revisar rapidamente o que foi extraído, para montar avaliações sem precisar redigitar as questões manualmente.**
+> Como gestora da rede de ensino, quero visualizar os resultados dos simulados de forma simples e organizada, para analisar rapidamente o desempenho das escolas e identificar pontos que precisam de atenção.
 
 ### Critérios de aceitação
 
-* Deve permitir importar arquivos em PDF para extração de questões.
-* Deve extrair automaticamente o texto e as alternativas das questões do PDF.
-* Deve apresentar uma interface de revisão rápida do conteúdo extraído.
-* Deve permitir confirmar a questão extraída sem necessidade de redigitação.
-* Deve permitir corrigir manualmente um trecho da extração quando necessário.
-* Deve sinalizar quando uma extração apresentar baixa confiabilidade.
+- Deve apresentar os resultados em um painel simples e intuitivo.
+- Deve permitir visualizar os resultados por escola.
+- Deve apresentar informações consolidadas da rede de ensino.
+- Deve utilizar gráficos, indicadores ou informações de fácil compreensão.
+- Deve evitar a necessidade de consultar diferentes planilhas ou fontes de dados.
 
 ---
 
-
-## S2 — Dashboards de desempenho
+## S2 — Comparação entre escolas
 
 ### Requisito funcional
 
-O sistema deve apresentar dashboards que identifiquem as habilidades ou descritores críticos de cada aluno com base nos resultados das avaliações.
+O sistema deve permitir à gestora comparar os resultados dos simulados entre diferentes escolas da rede.
 
 ### História de usuário
 
-**Como professora de matemática, quero visualizar em que habilidade ou descritor cada aluno apresenta dificuldade, para identificar a tempo quem precisa de reforço.**
+> Como gestora da rede de ensino, quero comparar o desempenho das diferentes escolas, para identificar diferenças de resultados e apoiar decisões de políticas educacionais e alocação de recursos.
 
 ### Critérios de aceitação
 
-* Deve apresentar o desempenho de cada aluno por habilidade ou descritor, não apenas a nota final.
-* Deve destacar os alunos com maior necessidade de reforço.
-* Deve permitir visualizar o desempenho individual e o desempenho da turma.
-* Os dados exibidos devem corresponder aos resultados registrados no sistema após a aplicação da avaliação.
-* Deve atualizar o dashboard automaticamente após a correção das avaliações.
+- Deve permitir selecionar duas ou mais escolas para comparação.
+- Deve apresentar os resultados de maneira organizada e compreensível.
+- Deve permitir comparar indicadores relevantes dos simulados.
+- Deve apresentar os dados mais recentes disponíveis.
+- A comparação deve ser realizada sem exigir configurações complexas.
+
+---
+
+## S3 — Geração de relatórios consolidados
+
+### Requisito funcional
+
+O sistema deve permitir à gestora gerar relatórios consolidados sobre o desempenho das escolas e da rede.
+
+### História de usuário
+
+> Como gestora da rede de ensino, quero gerar relatórios consolidados dos resultados das escolas, para reduzir o tempo gasto na organização dos dados e utilizar essas informações na tomada de decisões estratégicas.
+
+### Critérios de aceitação
+
+- Deve permitir gerar um relatório da rede de ensino.
+- Deve permitir gerar relatórios individuais por escola.
+- Deve reunir as principais informações dos simulados no relatório.
+- A geração do relatório deve ser rápida e simples.
+- Os dados apresentados devem corresponder aos resultados cadastrados mais recentemente.
+
+---
+
+## S4 — Exportação dos relatórios
+
+### Requisito funcional
+
+O sistema deve permitir à gestora exportar os relatórios gerados pela plataforma.
+
+### História de usuário
+
+> Como gestora da rede de ensino, quero exportar os relatórios consolidados, para compartilhar e utilizar os resultados em reuniões, análises e decisões relacionadas à rede de ensino.
+
+### Critérios de aceitação
+
+- Deve permitir exportar os relatórios gerados.
+- O arquivo exportado deve conter os dados apresentados no sistema.
+- Deve incluir as informações essenciais sobre o desempenho das escolas.
+- A exportação deve ser realizada de maneira simples.
+- O relatório exportado deve apresentar os dados de forma organizada e legível.
+
+---
+
+## S5 — Análise para tomada de decisões
+
+### Requisito funcional
+
+O sistema deve disponibilizar informações consolidadas que auxiliem a gestora na análise do desempenho da rede de ensino.
+
+### História de usuário
+
+> Como gestora da rede de ensino, quero identificar rapidamente os principais resultados e diferenças entre as escolas, para tomar decisões mais rápidas e eficientes sobre políticas educacionais e alocação de recursos.
+
+### Critérios de aceitação
+
+- Deve destacar informações relevantes dos resultados.
+- Deve permitir identificar diferenças de desempenho entre escolas.
+- Deve apresentar os dados de maneira visual e objetiva.
+- Deve facilitar a localização das informações necessárias para uma decisão.
+- Deve reduzir o tempo necessário para analisar os dados da rede.
+
+---
 
 # Histórias de Usuário — Persona 5
 
@@ -259,6 +316,183 @@ O sistema deve apresentar dashboards que identifiquem as habilidades ou descrito
 * Os dados exibidos devem corresponder aos resultados registrados no sistema após a aplicação da avaliação.
 * Deve atualizar o dashboard automaticamente após a correção das avaliações.
 
+---
 
 
+## S3 — Validador Pedagógico
 
+### Requisito funcional
+
+O sistema deve validar a distribuição pedagógica do simulado e alertar o professor sobre desequilíbrios antes da aprovação.
+
+### História de usuário
+
+**Como professora de matemática, quero ser alertada quando um simulado estiver desbalanceado em relação aos descritores, para evitar aplicar avaliações que não representem adequadamente o conteúdo da turma.**
+
+### Critérios de aceitação
+
+* Deve analisar a distribuição de descritores/habilidades do simulado montado.
+* Deve exibir um alerta visível quando o simulado estiver concentrado em poucos descritores.
+* Deve exigir confirmação explícita do professor antes de aprovar um simulado com alerta pendente.
+* Deve registrar quando um simulado foi aprovado mesmo com alerta ativo.
+* Não deve permitir a publicação do simulado sem que o alerta tenha sido visualizado pelo professor.
+
+---
+## S4 — Construtor de simulados
+
+### Requisito funcional
+
+O sistema deve permitir montar simulados alinhados à BNCC/SAEB a partir das questões cadastradas.
+
+### História de usuário
+
+**Como professora de matemática, quero montar simulados alinhados à BNCC/SAEB de forma rápida, para preparar avaliações de qualidade mesmo com pouco tempo disponível.**
+
+### Critérios de aceitação
+
+* Deve permitir selecionar questões cadastradas para compor um simulado.
+* Deve permitir filtrar questões por habilidade ou descritor da BNCC/SAEB.
+* Deve permitir organizar a ordem das questões no simulado.
+* Deve permitir salvar o simulado como rascunho antes da aprovação final.
+* Deve permitir publicar o simulado após sua aprovação.
+
+---
+
+# Histórias de Usuário — Persona 4
+
+## Persona 4 — José Amorim
+
+**Perfil:** Gestor Escolar
+
+---
+
+## S1 — Visualização dos resultados escolares
+
+### Requisito funcional
+
+O sistema deve apresentar os resultados consolidados da escola em um dashboard.
+
+### História de usuário
+
+**Como gestor escolar, quero visualizar os resultados consolidados da escola em um dashboard, para acompanhar o desempenho geral e identificar situações que precisam de atenção.**
+
+### Critérios de aceitação
+
+- Deve apresentar os principais resultados da escola.
+- Deve apresentar os resultados por componente curricular.
+- Deve apresentar os indicadores de forma visual e objetiva.
+- Deve permitir identificar indicadores que necessitam de atenção.
+
+---
+
+## S2 — Comparação entre turmas
+
+### Requisito funcional
+
+O sistema deve permitir comparar os resultados de diferentes turmas da escola.
+
+### História de usuário
+
+**Como gestor escolar, quero comparar os resultados entre as turmas, para identificar diferenças de desempenho e direcionar ações de intervenção.**
+
+### Critérios de aceitação
+
+- Deve permitir selecionar as turmas que serão comparadas.
+- Deve apresentar os resultados de cada turma.
+- Deve permitir comparar os resultados no mesmo período.
+- Deve destacar diferenças relevantes de desempenho.
+
+---
+
+## S3 — Acompanhamento da evolução escolar
+
+### Requisito funcional
+
+O sistema deve permitir acompanhar a evolução dos resultados escolares ao longo do tempo.
+
+### História de usuário
+
+**Como gestor escolar, quero acompanhar a evolução dos resultados ao longo do tempo, para verificar se o desempenho da escola está melhorando ou piorando.**
+
+### Critérios de aceitação
+
+- Deve apresentar os resultados de diferentes períodos.
+- Deve permitir comparar períodos letivos.
+- Deve apresentar a evolução dos indicadores visualmente.
+- Deve destacar variações significativas nos resultados.
+
+---
+
+## S4 — Análise por descritor
+
+### Requisito funcional
+
+O sistema deve permitir visualizar o desempenho dos alunos por descritor e componente curricular.
+
+### História de usuário
+
+**Como gestor escolar, quero visualizar o desempenho por descritor e componente curricular, para identificar quais conteúdos apresentam maiores dificuldades.**
+
+### Critérios de aceitação
+
+- Deve apresentar o desempenho por descritor.
+- Deve permitir filtrar por componente curricular.
+- Deve destacar descritores com baixo desempenho.
+- Deve apresentar os resultados de forma clara e objetiva.
+
+---
+
+## S5 — Alertas de desempenho
+
+### Requisito funcional
+
+O sistema deve alertar o gestor sobre quedas significativas nos resultados escolares.
+
+### História de usuário
+
+**Como gestor escolar, quero receber alertas sobre quedas significativas no desempenho, para identificar rapidamente situações que precisam de intervenção.**
+
+### Critérios de aceitação
+
+- Deve gerar um alerta quando houver uma queda significativa.
+- Deve informar qual indicador apresentou a queda.
+- Deve informar a turma ou componente curricular relacionado.
+- Deve destacar visualmente os alertas.
+
+---
+
+## S6 — Acompanhamento das intervenções
+
+### Requisito funcional
+
+O sistema deve permitir acompanhar os resultados após a realização de ações de intervenção.
+
+### História de usuário
+
+**Como gestor escolar, quero acompanhar os resultados após as intervenções, para verificar se as ações realizadas contribuíram para melhorar o desempenho dos alunos.**
+
+### Critérios de aceitação
+
+- Deve permitir visualizar os resultados antes da intervenção.
+- Deve permitir visualizar os resultados após a intervenção.
+- Deve permitir comparar os dois períodos.
+- Deve apresentar a evolução do indicador acompanhado.
+
+---
+
+## S7 — Consulta das informações gerenciais
+
+### Requisito funcional
+
+O sistema deve disponibilizar os principais resultados e indicadores da escola em um único ambiente.
+
+### História de usuário
+
+**Como gestor escolar, quero consultar os principais indicadores da escola em um único ambiente, para obter as informações necessárias sem depender de relatórios adicionais.**
+
+### Critérios de aceitação
+
+- Deve disponibilizar os principais indicadores no dashboard.
+- Deve permitir consultar os detalhes dos indicadores.
+- Deve apresentar os dados de forma consolidada.
+- Deve permitir acessar as informações sem necessidade de solicitar relatórios extras..

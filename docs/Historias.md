@@ -136,6 +136,72 @@ O sistema deve disponibilizar informações consolidadas que auxiliem a gestora 
 
 ---
 
+# Histórias de Usuário — Persona 5
+
+## Persona 5 — Camila Ferreira
+
+**Perfil:** Professora com permissão de Revisão de Questões
+
+---
+
+## S1 — Revisão lado a lado do documento original e da questão extraída
+
+### Requisito funcional
+
+O sistema deve apresentar uma interface de revisão lado a lado, comparando o documento original com a questão extraída.
+
+### História de usuário
+
+**Como professora com permissão de revisão, quero comparar lado a lado o documento original e a questão extraída, para confirmar que a extração capturou tudo corretamente antes de aprovar.**
+
+### Critérios de aceitação
+
+* Deve exibir o documento original e a questão extraída lado a lado.
+* Deve indicar a página de origem correspondente à questão.
+* Deve destacar os campos com baixa confiança na extração.
+* Deve permitir navegar entre as questões extraídas do mesmo documento.
+* Deve permitir ampliar a visualização de imagens, gráficos ou tabelas do documento original.
+
+
+---
+
+## S2 — Correção e aprovação da questão extraída
+
+### Requisito funcional
+
+O sistema deve permitir editar o enunciado, as alternativas, o gabarito e as imagens de uma questão extraída, impedindo a aprovação de questões incompletas.
+
+### História de usuário
+
+**Como professora com permissão de revisão, quero corrigir o enunciado, as alternativas, o gabarito e as imagens de uma questão extraída, para garantir que ela esteja correta antes de entrar no Banco de Questões.**
+
+### Critérios de aceitação
+
+* Deve permitir editar o enunciado e as alternativas da questão extraída.
+* Deve permitir corrigir o gabarito quando estiver incorreto.
+* Deve permitir ajustar ou substituir a imagem associada à questão.
+* Não deve permitir aprovar uma questão sem gabarito ou sem habilidade/descritor associado.
+* Deve confirmar a aprovação apenas após a validação de todos os campos obrigatórios.
+
+## S3 — Rastreabilidade da aprovação
+
+### Requisito funcional
+
+O sistema deve registrar o responsável pela aprovação de cada questão e manter o histórico de alterações realizadas durante a revisão.
+
+### História de usuário
+
+**Como professora com permissão de revisão, quero que o sistema registre quem revisou e aprovou cada questão, para manter a rastreabilidade do processo.**
+
+### Critérios de aceitação
+
+* Deve registrar o usuário responsável pela aprovação da questão.
+* Deve registrar a data e a hora da aprovação.
+* Deve manter o histórico das alterações feitas durante a revisão.
+* Deve permitir consultar o histórico de uma questão aprovada.
+* As informações de rastreabilidade não devem poder ser editadas após o registro.
+
+
 # Histórias de Usuário — Persona 6
 
 ## Persona 6 — Ricardo Nascimento

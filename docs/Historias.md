@@ -441,3 +441,84 @@ O sistema deve disponibilizar os principais resultados e indicadores da escola e
 - Deve permitir consultar os detalhes dos indicadores.
 - Deve apresentar os dados de forma consolidada.
 - Deve permitir acessar as informações sem necessidade de solicitar relatórios extras..
+
+
+# Histórias de Usuário — Persona 3
+
+## Persona 3 — Beatriz Sousa
+
+**Perfil:** Coordenadora Pedagógica
+
+---
+
+## S1 — Dashboard de desempenho e comparação
+
+### Requisito funcional
+
+O sistema deve apresentar um dashboard para a coordenadora pedagógica visualizar e comparar o desempenho das turmas, identificando dificuldades e acompanhando a evolução dos resultados.
+
+### História de usuário
+
+**Como coordenadora pedagógica, quero visualizar e comparar o desempenho das turmas em um dashboard, para acompanhar os resultados e identificar quais turmas precisam de maior atenção pedagógica.**
+
+### Critérios de aceitação
+
+- Deve permitir visualizar o desempenho das turmas.
+- Deve permitir comparar os resultados entre diferentes turmas.
+- Deve apresentar os descritores críticos e as habilidades com menor domínio.
+- Deve apresentar a distribuição dos estudantes por faixas de desempenho.
+- Deve permitir identificar padrões de dificuldade.
+- Deve permitir acompanhar a evolução das turmas entre diferentes aplicações.
+- Deve permitir acompanhar as ações de recomposição da aprendizagem.
+- Os dados apresentados devem corresponder aos resultados registrados no sistema.
+
+---
+
+## S2 — Relatórios por descritores e habilidades
+
+### Requisito funcional
+
+O sistema deve permitir gerar relatórios de desempenho por descritor e habilidade, apresentando informações que auxiliem a equipe pedagógica na identificação das principais lacunas de aprendizagem.
+
+### História de usuário
+
+**Como coordenadora pedagógica, quero gerar relatórios por descritores e habilidades, para analisar as principais lacunas de aprendizagem e identificar quais áreas precisam de maior atenção pedagógica.**
+
+### Critérios de aceitação
+
+- Deve permitir gerar relatórios por descritor e habilidade.
+- Deve apresentar o código e a descrição do descritor ou habilidade.
+- Deve apresentar o componente curricular relacionado.
+- Deve apresentar a quantidade de questões e de estudantes avaliados.
+- Deve apresentar os percentuais de acertos, erros e omissões.
+- Deve apresentar as questões associadas ao descritor ou habilidade.
+- Deve permitir comparar os resultados entre diferentes turmas.
+- Deve permitir comparar os resultados entre diferentes aplicações.
+- Deve apresentar o nível de atenção pedagógica de cada descritor ou habilidade.
+
+---
+
+## S3 — Recomposição da aprendizagem
+
+### Requisito funcional
+
+O sistema deve utilizar os resultados das avaliações para apoiar a elaboração de planos de recomposição da aprendizagem, oferecendo recomendações que possam ser revisadas e aprovadas pela equipe pedagógica.
+
+### História de usuário
+
+**Como coordenadora pedagógica, quero utilizar os resultados das avaliações para apoiar planos de recomposição da aprendizagem, para definir ações de intervenção de acordo com as principais dificuldades identificadas.**
+
+### Critérios de aceitação
+
+- Deve permitir identificar os descritores críticos e as habilidades com menor domínio.
+- Deve permitir identificar estudantes ou turmas com dificuldades semelhantes.
+- Deve apresentar questões relacionadas disponíveis no Banco Mentary.
+- Deve permitir considerar questões ainda não respondidas pelos estudantes.
+- Deve permitir sugerir atividades de revisão e acompanhamento.
+- Deve permitir organizar grupos de estudantes de acordo com as dificuldades identificadas.
+- Deve permitir sugerir sequências de aprendizagem e avaliações de acompanhamento.
+- As recomendações geradas pela Inteligência Artificial devem ser revisadas e aprovadas pelo professor ou pela equipe pedagógica.
+- Deve permitir acompanhar a evolução dos resultados após as ações de recomposição.
+ 
+
+
